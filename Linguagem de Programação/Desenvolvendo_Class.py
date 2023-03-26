@@ -52,12 +52,11 @@ class Funcionario(Pessoa):
         self.nome=nome
         self.idade=idade
         self.cadastro=cadastro
-X    def apresentar(self):
+    def apresentar(self):
         print(f'Olá sou o(a) funcionário(a) {self.nome}, minha idade é {self.idade} e nº de cadastro é {self.cadastro}!')
 
 f1 = Funcionario('Pitty', 21, 1001)
 f2 = Funcionario('Carlos', 25, 1002)
-
 f1.apresentar()
 f2.apresentar()
 

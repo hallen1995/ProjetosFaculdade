@@ -30,12 +30,7 @@ class Turma:
         soma=0
         for aluno in self.listaAlunos:
             soma+=aluno.getNota()
-        return soma/len(self.listaAlunos)
-    
-# a1 = Aluno('Mario,',90)
-# a2 = Aluno('Carlos,',80)
-# a3 = Aluno('Bob,',90)
-# a4 = Aluno('Ted', 80)
+        return soma/len(self.listaAlunos) 
 
 t1 = Turma('Programação',4)
 t1.addAluno(Aluno('Mario,',90))
